@@ -1,0 +1,44 @@
+head {link rel="stylesheet" type="text/css" href="css/style.css"
+}
+
+/**** comments to organize stylesheet ****/
+
+body
+  {font-size: 14px;
+}
+
+h1 {
+  font-family:sans-serif;
+  font-size: 2em;
+}
+
+h3, .example {
+  padding-top: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-family: sans-serif;
+  font-size: 1.3em;
+}
+
+nav {
+  background-color: yellow;
+  margin-top: -10px;
+  position: fixed;
+}
+
+nav, .element {
+  height: 100px;
+  width: 100%;
+}
+
+section {
+  margin: auto;
+  width: 60%;
+}
+
+.element {
+  background-color: green;
+  margin: 10px;
+}
